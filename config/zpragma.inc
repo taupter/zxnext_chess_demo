@@ -1,0 +1,12 @@
+#pragma output CRT_ORG_CODE = 0x8184
+#pragma output REGISTER_SP = 0
+#pragma output CLIB_MALLOC_HEAP_SIZE = 0
+#pragma output CLIB_STDIO_HEAP_SIZE = 0
+#pragma output CLIB_FOPEN_MAX = -1
+#pragma output CRT_ORG_BANK_8 = 0x4000
+#pragma output CRT_ORG_BANK_20 = 0x0000
+#pragma output CRT_ORG_BANK_21 = 0x0000
+#pragma output CRT_ORG_BANK_22 = 0x0000
+#pragma output CRT_ORG_BANK_23 = 0x0000
+#pragma output CRT_ORG_BANK_24 = 0x0000
+#pragma output CRT_ORG_BANK_25 = 0x0000

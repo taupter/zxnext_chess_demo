@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "ula.h": "c",
+        "layer2.h": "c",
+        "bank.h": "c",
+        "globals.h": "c",
+        "font.h": "c",
+        "chessmen.h": "c",
+        "string.h": "c",
+        "chessboard.h": "c",
+        "sprite.h": "c"
+    }
+}

@@ -14,27 +14,18 @@
 #include <stdbool.h>
 #include <string.h>
 
-#include "font.h"
+#include "../config/zconfig.h"
+
+#include "globals.h"
+#include "sprites.h"
 #include "chessmen.h"
 #include "chessboard.h"
-#include "globals.h"
-#include "ula.h"
-#include "layer2.h"
-#include "bank.h"
-#include "sprites.h"
 
-#pragma output CRT_ORG_CODE = 0x8184
-#pragma output REGISTER_SP = 0
-#pragma output CLIB_MALLOC_HEAP_SIZE = 0
-#pragma output CLIB_STDIO_HEAP_SIZE = 0
-#pragma output CLIB_FOPEN_MAX = -1
-#pragma output CRT_ORG_BANK_8 = 0x4000
-#pragma output CRT_ORG_BANK_20 = 0x0000
-#pragma output CRT_ORG_BANK_21 = 0x0000
-#pragma output CRT_ORG_BANK_22 = 0x0000
-#pragma output CRT_ORG_BANK_23 = 0x0000
-#pragma output CRT_ORG_BANK_24 = 0x0000
-#pragma output CRT_ORG_BANK_25 = 0x0000
+#include "zxnext/src/font.h"
+#include "zxnext/src/ula.h"
+#include "zxnext/src/layer2.h"
+#include "zxnext/src/bank.h"
+#include "zxnext/src/sprite.h"
 
 /*
  * Define IDE_FRIENDLY in your C IDE to disable Z88DK C extensions and avoid
